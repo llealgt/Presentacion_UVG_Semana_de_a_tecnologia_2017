@@ -1,0 +1,28 @@
+Intro:
+  - AI,ML,DL
+  - NLP
+    - chatbots
+    - traductores
+    - spam detector
+    - sentiment analysis
+    - muchos mas
+
+metodo clasico(ejemplo de spam detector)
+   - one-hot encoding
+   - regresion logistica
+     https://github.com/llealgt/machine_learning_foundations_case_study_approach/blob/master/My%20Analyzing%20products%20sentiment.ipynb
+
+Redes Neuronales: jerarquia, no linearidades (https://github.com/llealgt/moview_review_sentiment_prediction_neural_network)
+Redes neuronales recurrentes: conexiones ciclicas, mantienen informacion del pasado, vanishing gradient
+redes neuronales con memoria(lstm): tipo de rnn con unidades de memoria que mantiene informacion por largos periodos, dependencias a
+largo plazo, un estado y manejo de contexto https://github.com/llealgt/moview_review_sentiment_prediction_RNN
+
+Modelo generativo; https://github.com/llealgt/RNN_text_generator_example
+
+Aplicacion en la industria(relacion con ETL/BI): NUG tracker
+
+Tips y tecnicas relacionadas:
+  unsupervised learning: 
+    - word2vec enbeddings(vector con semantica y de menor tamaño,mayor eficiencia y aplicacoines interesantes)
+      https://github.com/llealgt/Skipgram_word2vec_embeddings/blob/master/Skip-Gram_word2vec.ipynb
+    - stemming(puede ayudar pero tambien puede dañar, usar con precaucion)
